@@ -1,4 +1,4 @@
-# Integration
+# INTEGRATION
 ## Model Overview
 The INTEGRATION 2.40 model is a trip-based microscopic traffic assignment, simulation, and optimization model that is capable of modeling networks of up to 10,000 links and 500,000 vehicle departures. The model is designed to trace individual vehicle movements from a vehicle's origin to its final destination at a level of resolution of one deci-second. The model simulates the departures of vehicles from a time-varying origin-destination (O-D) table. Vehicles are assigned to the network using a time-varying multi-class traffic assignment. Vehicles are then tracked at a deci-second level of resolution by modeling vehicle car-following, lane-changing, and gap acceptance behavior. Specifically, vehicle's select their speed based on link-specific steady-state car-following relationships that are calibrated using field loop detector data. A vehicle's movement from one steady-state to another is constrained its dynamics.
 
